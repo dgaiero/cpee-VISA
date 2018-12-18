@@ -8,7 +8,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set SOURCEDIR=source
-set BUILDDIR=../docs
+set BUILDDIR=../cpee-visa-docs
 set PDFBUILDDIR = /tmp
 set PDF     = ../manual.pdf
 REM set BUILDDIR=build
