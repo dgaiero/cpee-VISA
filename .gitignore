@@ -20,6 +20,8 @@ parts/
 sdist/
 var/
 wheels/
+test_scripts/
+manuals/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -113,3 +115,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+\.vscode/
