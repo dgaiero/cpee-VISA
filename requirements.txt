@@ -1,0 +1,4 @@
+PyVISA==1.9.1
+Sphinx==1.8.2
+sphinx-rtd-theme==0.4.2
+typing==3.6.6

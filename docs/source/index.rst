@@ -15,9 +15,19 @@ Agilent E3640A
 .. automodule:: agilent_e3640a
    :members:
 
+Agilent 34401A
+==============
+.. automodule:: agilent_34401a
+   :members:
+
 VISA Instrument Template
 ========================
 .. automodule:: instrument
+   :members:
+
+Exceptions
+========================
+.. automodule:: exceptions
    :members:
 
 
@@ -26,4 +36,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`

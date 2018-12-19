@@ -2,7 +2,7 @@
 .. module:: agilent_e3640a
     :platform: Windows
     :synopsis: Agilent E3640A basic VISA library for python
-    \\utilizng the super Instrument VISA template.
+        utilizng the super Instrument VISA template.
 
 .. moduleauthor:: Dominic Gaiero <dgaiero@calpoly.edu>
 """
@@ -115,13 +115,14 @@ class Agilent364XA(Instrument):
         :type voltage_range: str
         :raises: MalformedParameterException
         """
+        voltage_range = voltage_range.upper()
         if voltage_range == "HIGH":
             self.instrument.write("VOLTage:RANGe P20V")
         elif voltage_range == "LOW":
             self.instrument.write("VOLTage:RANGe P8V")
         else:
-            raise exceptions.MalformedParamterException(
-                voltage_range, ["HIGH", "LOW"])
+            raise exceptions.MalformedParamterException(voltage_range,
+                                                        ["HIGH", "LOW"])
 
     def get_voltage_range(self) -> str:
         """
