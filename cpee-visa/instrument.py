@@ -112,3 +112,9 @@ class Instrument:
         # TODO: Call pyvisa cross reference
         function = getattr(self.instrument, function_name)
         return function(*args, **kwargs)
+
+    def close_connection(self):
+        """
+        Closes connection to instrument
+        """
+        self.instrument.close()
