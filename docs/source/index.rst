@@ -10,26 +10,11 @@ Cal Poly EE VISA Equipment Libraries
    :maxdepth: 2
    :caption: Contents:
 
-Agilent E3640A
-==============
-.. automodule:: agilent_e3640a
-   :members:
-
-Agilent 34401A
-==============
-.. automodule:: agilent_34401a
-   :members:
-
-VISA Instrument Template
-========================
-.. automodule:: instrument
-   :members:
-
-Exceptions
-========================
-.. automodule:: exceptions
-   :members:
-
+   instrument
+   agilent_e3640a
+   agilent_34401a
+   agilent_33210a
+   exceptions
 
 Indices and tables
 ==================
